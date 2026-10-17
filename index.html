@@ -3,100 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Study Hub: organização acadêmica e portfólio de Ciência da Computação.">
-    <title>Study Hub | Portfólio Acadêmico</title>
+    <meta name="description" content="Study Hub: organização acadêmica e desenvolvimento profissional em Ciência da Computação.">
+    <title>Study Hub | Ciência da Computação</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header class="cabecalho">
-        <a class="logo" href="#inicio">Study<span>Hub</span></a>
+        <nav class="navegacao container">
+            <a class="logo" href="#inicio">
+                <span class="logo-icone">&lt;/&gt;</span>
+                Study Hub
+            </a>
 
-        <nav>
-            <a href="#sobre">Sobre mim</a>
-            <a href="#disciplinas">Disciplinas</a>
-            <a href="#objetivos">Objetivos</a>
+            <div class="menu">
+                <a href="#inicio">Início</a>
+                <a href="#disciplinas">Disciplinas</a>
+                <a href="#sobre">Sobre mim</a>
+                <a href="#objetivos">Objetivos</a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section class="inicio" id="inicio">
-            <p class="etiqueta">CIÊNCIA DA COMPUTAÇÃO</p>
-            <h1>Bem-vindo ao meu <span>Study Hub!</span></h1>
-            <p>
-                Um espaço dedicado à organização dos meus estudos,
-                ao desenvolvimento de projetos e à minha evolução
-                na área de tecnologia.
-            </p>
-            <a class="botao" href="#disciplinas">Conheça meus estudos</a>
-        </section>
+        <section class="hero" id="inicio">
+            <div class="container hero-conteudo">
+                <div class="hero-texto">
+                    <span class="etiqueta">CIÊNCIA DA COMPUTAÇÃO · UniCEUB</span>
 
-        <section class="secao" id="sobre">
-            <h2>Sobre mim</h2>
-            <p>
-                Sou estudante do primeiro semestre de Ciência da
-                Computação no UniCEUB, em Brasília. Estou construindo
-                minha base em programação, computação e tecnologia,
-                buscando aprender continuamente e desenvolver
-                projetos acadêmicos.
-            </p>
-        </section>
+                    <h1>Organize seus estudos.<br>
+                        <span>Construa seu futuro.</span>
+                    </h1>
 
-        <section class="secao" id="disciplinas">
-            <h2>Minhas disciplinas</h2>
-            <p class="subtitulo">
-                Organização dos conteúdos do primeiro semestre.
-            </p>
+                    <p>
+                        Bem-vindo ao meu Study Hub! Um espaço dedicado à
+                        organização acadêmica, ao aprendizado de tecnologia
+                        e ao desenvolvimento de projetos.
+                    </p>
 
-            <div class="grade">
-                <article class="cartao">
-                    <h3>Bootcamp I</h3>
-                    <p>Organização acadêmica, GitHub e portfólio.</p>
-                </article>
+                    <div class="botoes">
+                        <a class="botao botao-principal" href="#disciplinas">
+                            Explorar disciplinas →
+                        </a>
+                        <a class="botao botao-secundario" href="#sobre">
+                            Sobre mim
+                        </a>
+                    </div>
+                </div>
 
-                <article class="cartao">
-                    <h3>Banco de Dados</h3>
-                    <p>Modelagem de dados e consultas em tabelas.</p>
-                </article>
-
-                <article class="cartao">
-                    <h3>Introdução à Computação</h3>
-                    <p>Fundamentos da computação e sistemas numéricos.</p>
-                </article>
-
-                <article class="cartao">
-                    <h3>Lógica de Programação</h3>
-                    <p>Algoritmos e primeiros passos com Python.</p>
-                </article>
-
-                <article class="cartao">
-                    <h3>Matemática para Computação</h3>
-                    <p>Lógica, álgebra booleana e matemática computacional.</p>
-                </article>
-
-                <article class="cartao">
-                    <h3>Organização e Arquitetura</h3>
-                    <p>Componentes e funcionamento dos computadores.</p>
-                </article>
+                <div class="hero-visual" aria-label="Ilustração de programação">
+                    <div class="janela">
+                        <div class="janela-topo">
+                            <span></span><span></span><span></span>
+                            <small>meu-projeto.py</small>
+                        </div>
+                        <div class="codigo">
+                            <p><span>01</span> <b>class</b> <strong>StudyHub</strong>:</p>
+                            <p><span>02</span> &nbsp;&nbsp; curso = <em>"Computação"</em></p>
+                            <p><span>03</span> &nbsp;&nbsp; foco = <em>"Aprender"</em></p>
+                            <p><span>04</span></p>
+                            <p><span>05</span> &nbsp;&nbsp; <b>def</b> <strong>evoluir</strong>(self):</p>
+                            <p><span>06</span> &nbsp;&nbsp;&nbsp;&nbsp; <b>return</b> <em>"Todo dia!"</em></p>
+                        </div>
+                        <div class="terminal">
+                            <span>➜</span> Construindo meu futuro...
+                            <strong>✓</strong>
+                        </div>
+                    </div>
+                    <div class="selo">💻 Aprender · Praticar · Evoluir</div>
+                </div>
             </div>
         </section>
 
-        <section class="secao objetivos" id="objetivos">
-            <h2>Meus objetivos profissionais</h2>
-            <p>
-                Tenho interesse em Segurança da Informação,
-                Infraestrutura e Redes de Computadores. Quero
-                aprofundar meus conhecimentos, desenvolver projetos
-                práticos e explorar oportunidades profissionais
-                relacionadas à tecnologia.
-            </p>
+        <section class="disciplinas secao" id="disciplinas">
+            <div class="container">
+                <div class="titulo-secao">
+                    <span class="etiqueta">MINHA JORNADA ACADÊMICA</span>
+                    <h2>Minhas disciplinas</h2>
+                    <p>Os conhecimentos que estou desenvolvendo no primeiro semestre.</p>
+                </div>
+
+                <div class="grade-disciplinas">
+                    <article class="cartao">
+                        <div class="cartao-icone azul">🚀</div>
+                        <h3>Bootcamp I</h3>
+                        <p>Organização acadêmica, GitHub, portfólio e desenvolvimento profissional.</p>
+                        <span class="categoria">Projetos e carreira</span>
+                    </article>
+
+                    <article class="cartao">
+                        <div class="cartao-icone verde">🗄️</div>
+                        <h3>Banco de Dados</h3>
+                        <p>Modelagem de dados, entidades, relacionamentos e organização de informações.</p>
+                        <span class="categoria">Dados</span>
+                    </article>
+
+                    <article class="cartao">
+                        <div class="cartao-icone roxo">🧠</div>
+                        <h3>Introdução à Computação</h3>
+                        <p>Fundamentos da computação, sistemas numéricos e funcionamento dos computadores.</p>
+                        <span class="categoria">Fundamentos</span>
+                    </article>
+
+                    <article class="cartao">
+                        <div class="cartao-icone laranja">🐍</div>
+                        <h3>Lógica de Programação</h3>
+                        <p>Algoritmos, raciocínio lógico, funções e primeiros passos com Python.</p>
+                        <span class="categoria">Programação</span>
+                    </article>
+
+                    <article class="cartao">
+                        <div class="cartao-icone rosa">📐</div>
+                        <h3>Matemática para Computação</h3>
+                        <p>Lógica matemática, álgebra booleana e conceitos matemáticos aplicados à tecnologia.</p>
+                        <span class="categoria">Matemática</span>
+                    </article>
+
+                    <article class="cartao">
+                        <div class="cartao-icone ciano">⚙️</div>
+                        <h3>Organização e Arquitetura</h3>
+                        <p>Processadores, memória, instruções e componentes dos sistemas computacionais.</p>
+                        <span class="categoria">Hardware</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre secao" id="sobre">
+            <div class="container sobre-conteudo">
+                <div class="sobre-simbolo">&lt;/&gt;</div>
+                <div>
+                    <span class="etiqueta">QUEM ESTÁ POR TRÁS DO PROJETO</span>
+                    <h2>Sobre mim</h2>
+                    <p>
+                        Sou estudante do primeiro semestre de Ciência da
+                        Computação no UniCEUB, em Brasília. Estou construindo
+                        minha base em programação, computação e tecnologia,
+                        buscando aprender continuamente e desenvolver projetos
+                        acadêmicos que contribuam para minha evolução.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="objetivos secao" id="objetivos">
+            <div class="container objetivos-conteudo">
+                <span class="etiqueta">OLHANDO PARA O FUTURO</span>
+                <h2>Meus objetivos profissionais</h2>
+                <p>
+                    Quero aprofundar meus conhecimentos, desenvolver projetos
+                    práticos e explorar oportunidades profissionais na área
+                    de tecnologia.
+                </p>
+
+                <div class="etiquetas-objetivos">
+                    <span>🔐 Segurança da Informação</span>
+                    <span>🖧 Infraestrutura</span>
+                    <span>🌐 Redes de Computadores</span>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>Study Hub | Projeto acadêmico de Ciência da Computação</p>
-        <p>Desenvolvido por Getúlio Brandão Figueiredo do Lago Júnior</p>
-        <p>Brasília - DF | 2026</p>
+    <footer class="rodape">
+        <div class="container rodape-conteudo">
+            <a class="logo" href="#inicio">
+                <span class="logo-icone">&lt;/&gt;</span>
+                Study Hub
+            </a>
+            <p>Projeto acadêmico de Ciência da Computação</p>
+            <p>Desenvolvido por Getúlio Brandão Figueiredo do Lago Júnior</p>
+            <p>Brasília – DF · 2026</p>
+        </div>
     </footer>
 
 </body>

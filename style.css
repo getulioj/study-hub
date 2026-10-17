@@ -1,0 +1,20 @@
+.sobre-simbolo {
+        width: 80px;
+        height: 80px;
+        font-size: 1.6rem;
+    }
+
+    .selo {
+        right: -3px;
+        font-size: 0.72rem;
+    }
+
+    .codigo {
+        padding: 22px 12px;
+        font-size: 0.72rem;
+    }
+
+    .terminal {
+        font-size: 0.68rem;
+        padding: 14px 12px;
+    }
